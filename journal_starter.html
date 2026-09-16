@@ -9,6 +9,8 @@
 <body>
     <!-- Main container with green border -->
     <div id="main-container">
+        <!-- Dark Mode Toggle -->
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
         
         <!-- Header section with red border -->
         <header id="header-box">
@@ -86,5 +88,19 @@
         </footer>
 
     </div>
+
+    <script>
+        const darkModeButton = document.getElementById("dark-mode-toggle");
+
+        darkModeButton.addEventListener("click", function () {
+            document.body.classList.toggle("dark-mode");
+
+            if (document.body.classList.contains("dark-mode")) {
+                darkModeButton.textContent = "☀️ Light Mode";
+            } else {
+                darkModeButton.textContent = "🌙 Dark Mode";
+            }
+        });
+    </script>
 </body>
 </html>
