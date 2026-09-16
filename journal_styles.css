@@ -100,14 +100,17 @@ body {
 ============================================ */
 
 .journal-entry {
-    background-color: #fff;
+    background-color: #9cdace;
     margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    overflow: hidden
 }
 
 .entry-image {
+    height: 200px;
+    width: 200px;
     float: left;
     margin-right: 15px;
     border: 12px solid #fff;
