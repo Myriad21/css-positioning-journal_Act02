@@ -126,7 +126,7 @@ body {
     margin-bottom: 10px;
 }
 
-.entry-date {
+.entry-date { 
     color: #888;
     font-size: 0.9em;
 }
@@ -152,4 +152,12 @@ body {
     #sidebar {
         margin-bottom: 20px;
     }
+}
+
+body.dark-mode {
+    background-color: #121212;
+}
+
+body.dark-mode #main-container {
+    background-color: #1e1e1e;
 }
