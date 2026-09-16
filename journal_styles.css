@@ -118,6 +118,17 @@ body {
     box-shadow: 0 5px 10px #888;
 }
 
+.friends-list li {
+    transition: .3s ease;
+}
+
+/*Highlights each friend with a blue background*/
+.friends-list li:hover {
+    background-color: #4a90e2;
+    color: white;
+    padding-left: 10px;
+}
+
 .entry-image {
     height: 200px;
     display: block;
