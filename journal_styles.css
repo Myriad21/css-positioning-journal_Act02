@@ -94,14 +94,30 @@ body {
 ============================================ */
 
 .journal-entry {
-    /* YOUR CODE HERE */
-    
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 .entry-image {
-    /* YOUR CODE HERE */
-    /* Add picture frame effect */
-    
+    float: left;
+    margin-right: 15px;
+    border: 12px solid #fff;
+    box-shadow: 0 0 0 2px #333;
+    padding: 8px;
+    background: white;
+}
+
+.entry-title {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.entry-date {
+    color: #888;
+    font-size: 0.9em;
 }
 
 /* ============================================
@@ -111,6 +127,18 @@ body {
 ============================================ */
 
 @media (max-width: 768px) {
-    /* YOUR CODE HERE */
+    #main-container {
+        width: 100%;
+        margin: 0;
+    }
     
+    #sidebar,
+    #content-area {
+        float: none;
+        width: 100%;
+    }
+    
+    #sidebar {
+        margin-bottom: 20px;
+    }
 }
