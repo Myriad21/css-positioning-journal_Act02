@@ -14,18 +14,22 @@
    STEP 1: BASE RESET & TYPOGRAPHY
    ============================================ */
 
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #333;
+    font-family: Arial, sans-serif;
     background-color: #f5f5f5;
-    padding: 20px;
+}
+
+#main-container {
+    width: 960px;
+    margin: 20px auto;
+    background: white;
 }
 
 /* ============================================
