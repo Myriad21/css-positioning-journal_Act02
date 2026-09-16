@@ -112,13 +112,16 @@ body {
 
 .entry-image {
     height: 200px;
-    width: 200px;
+    display: block;
     float: left;
     margin-right: 15px;
     border: 12px solid #fff;
     box-shadow: 0 0 0 2px #333;
     padding: 8px;
     background: white;
+
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .entry-title {
@@ -129,6 +132,39 @@ body {
 .entry-date {
     color: #888;
     font-size: 0.9em;
+}
+
+/*Hover Effects*/
+
+.image_container {
+    position: relative;
+
+    width: 200px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.image_container:hover .entry-image {
+  opacity: 0.3;
+}
+
+.image_container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #9cdace;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 /* ============================================
