@@ -1,2 +1,2 @@
-# inClass01-2
-# inClass01-2
+# inClass02
+# Activity to practice the different methods or positioning with CSS
