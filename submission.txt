@@ -1,0 +1,3 @@
+Name: Devin Major and Trajuan Smith
+Live URL: https://codd.cs.gsu.edu/~tsmith413/WebDev/inClass/inClass01-2/journal_starter.html
+GitHub: https://github.com/Myriad21/css-positioning-journal_Act02
