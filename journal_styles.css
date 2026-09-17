@@ -6,8 +6,8 @@
    Complete the TODOs below to style the journal.
    Refer to instructions for detailed guidance.
    
-   Author: [Trajuan Smith and ??????]
-   Date: 02/02/2026
+   Author: [Trajuan Smith and Devin Major]
+   Date: 09/16/2026
 ============================================ */
 
 /*Special Features: #2 Hover Effects and #5 Dark Mode*/
@@ -150,7 +150,7 @@ body {
     margin-bottom: 10px;
 }
 
-.entry-date { 
+.entry-date {
     color: #888;
     font-size: 0.9em;
 }
@@ -164,28 +164,28 @@ body {
 }
 
 .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
 }
 
 .image_container:hover .entry-image {
-  opacity: 0.3;
+    opacity: 0.3;
 }
 
 .image_container:hover .middle {
-  opacity: 1;
+    opacity: 1;
 }
 
 .text {
-  background-color: #9cdace;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+    background-color: #9cdace;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
 }
 
 
@@ -201,18 +201,22 @@ body {
         width: 100%;
         margin: 0;
     }
-    
+
     #sidebar,
     #content-area {
         float: none;
         width: 100%;
     }
-    
+
     #sidebar {
         margin-bottom: 20px;
     }
 }
 
+
+/* ============================================
+   STEP *: DARK MODE - Devin Major
+============================================ */
 body.dark-mode {
     background-color: #121212;
 }
